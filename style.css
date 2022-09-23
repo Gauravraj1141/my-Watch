@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+
+    background-image: url('watch.jpg');
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.box {
+    color: rgb(2 242 253 / 83%);
+    /* border:10px solid rgb(255, 218, 7); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 23px 203px;
+    margin: 0px 300px;
+    font-size: 45px;
+}
+
+.time {
+    color: rgb(254, 254, 7);
+    background-image: url("watch.jpg");
+    background-size: 1700px;
+
+    border: 10px solid rgb(172, 251, 172);
+    border-radius: 22px;
+    box-shadow: 5px 5px 5px 20px rgb(247, 23, 23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 5rem;
+    margin: 1rem 10rem;
+    font-size: 2.5rem;
+}
+
+.color {
+    color: #ff0000;
+}
